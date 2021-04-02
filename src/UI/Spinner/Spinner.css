@@ -1,0 +1,43 @@
+.Spinner {
+    margin: 20px auto 12px;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #ffffff;
+    background: linear-gradient(to right, #3dceec 10%, rgba(255, 255, 255, 0) 42%);
+    position: relative;
+    animation: spinner3 1.4s infinite linear;
+    transform: translateZ(0);
+}
+.Spinner:before {
+    width: 50%;
+    height: 50%;
+    background: #3dceec;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+}
+.Spinner:after {
+    background: #ddd;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@keyframes spinner3 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

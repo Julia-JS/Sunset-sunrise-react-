@@ -1,0 +1,58 @@
+.SunriseSunset {
+    padding: 40px 20px;
+    background: #ddd;
+    border-radius: 8px;
+    font-family: "Times New Roman", serif;
+}
+
+.SunriseSunset .Title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.SunriseSunset .Error {
+    margin: 20px auto 12px;
+    height: 72px;
+}
+
+.SunriseSunset .Data {
+    margin-top: 20px;
+}
+
+.SunriseSunset .Item {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.SunriseSunset .Item span {
+    font-weight: bold;
+}
+
+.SunriseSunset .Buttons {
+    margin-bottom: 20px;
+}
+
+.SunriseSunset .Line {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background: #1b134b;
+    border-radius: 8px;
+}
+
+.SunriseSunset .Day {
+    height: 100%;
+    background: yellow;
+    transition: all 1.5s ease-in-out;
+}
+
+.SunriseSunset .GradientLeft {
+    background: linear-gradient(to left, #3dceec, rgba(0, 0, 0, 0));
+    transition: all 1.5s ease-in-out;
+}
+
+.SunriseSunset .GradientRight {
+    background: linear-gradient(to right, #3dceec, rgba(0, 0, 0, 0));
+    transition: all 1.5s ease-in-out;
+}
